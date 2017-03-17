@@ -89,7 +89,7 @@ private:
 	SparseMatrix<double,Eigen::RowMajor> X, Y;
 	vector<pair<unsigned int,unsigned int>> nonzero;
 	MatrixXd P, Q;
-	unsigned int K, min_epochs, max_epochs, max_user, max_item, threads;	
+	unsigned int K, min_epochs, max_epochs, max_user, max_item, threads;
 	double alpha, decay, lambda, threshold, min_pred, max_pred, pq_init;
 	bool verbose, stochastic, round_outputs, mean_center;
 	map<unsigned int,double> means;
