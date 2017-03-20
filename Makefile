@@ -1,6 +1,6 @@
 CC=g++
 CXXFLAGS=-O3 --std=c++11 -Wall -Wextra -Wno-unused-variable -Wno-unused-parameter
-LIBS=-lboost_thread -lboost_system
+LIBS=-lboost_thread-mt -lboost_system
 INC=-I.
 THREADS=-DTHREADS
 SOURCES=src/svd_collabfilt.cpp src/main.cpp
